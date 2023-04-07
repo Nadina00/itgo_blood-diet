@@ -1,0 +1,131 @@
+
+.title {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fc842d;
+  margin-top: 41px;
+  margin-bottom: 51px;
+  text-transform: uppercase;
+}
+.form {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 45px;
+}
+.label {
+  margin-bottom: 32px;
+  width: 90px;
+  display: block;
+}
+.input {
+  margin-bottom: 32px;
+  border: inherit;
+  border-bottom: solid 1px #9b9faa;
+}
+::placeholder {
+  color: #9b9faa;
+  font-size: 14px;
+  font-weight: bold;
+}
+.button {
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  width: 210px;
+  background-color: #fc842d;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 13px 25px;
+  border-radius: 30px;
+  border: inherit;
+}
+.button:hover {
+  background-color: #ffffff;
+  color: #fc842d;
+  border: solid 1px #fc842d;
+}
+.button:disabled{
+  color: #ffffff;;
+  background-color: #9b9faa;
+}
+.box_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  width: 210px;
+  height: 44px;
+  background-color: #fc842d;
+  border-radius: 30px;
+  border: inherit;
+  text-align: center;
+}
+.link {
+  color: #ffffff;
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
+}
+.link:hover {
+  color: #fc842d;
+}
+.box_link:hover {
+  background-color: #ffffff;
+  color: #fc842d;
+  border: solid 1px #fc842d;
+}
+.boxPassword{
+  display: flex;
+  align-items: baseline;
+  color: #9b9faa;;
+  
+}
+.btnShow{
+  background-color: inherit;
+  border: inherit;
+}
+@media screen and (min-width: 768px) {
+  .box {
+    width: 740px;
+    background-image: url(../../img/Strawberry-Big-PNG.png),
+      url(../../img/Layer-9.png), url(../../img/Layer-4\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom 150px, right -20px bottom;
+  }
+  .box_btn {
+    display: flex;
+    align-items: center;
+  }
+  .title {
+    text-align: left;
+    margin-left: 16px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .box {
+    background-image: url(../../img/Strawberry-Big-PNG.png),
+    url(../../img/Layer-9.png), url(../../img/Layer-4\ 1.png);
+    width: 1280px;
+    background-position: right bottom -75px, right -20px top -100px, right 200px bottom 100px;
+    animation-name: changePosition;
+    animation-duration: 3000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+  }
+  .title {
+margin-top: 160px;
+  }
+  @keyframes changePosition {
+    0% {
+      background-position: right bottom -25px, right -20px top, right 200px bottom;
+    }
+
+    50% {
+      background-position: right bottom -50px, right -20px top -50px, right 200px bottom 50px;
+    }
+
+    100% {
+      background-position: right bottom -75px, right -20px top -100px, right 200px bottom 100px;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+.box {
+  margin-top: 80px;
+}
+
+.input {
+  width: 280px;
+  height: 24px;
+  border: inherit;
+  border-bottom: solid 1px #e0e0e0;
+}
+.input::placeholder {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+input:first-child {
+  margin-bottom: 32px;
+}
+.btn{
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 84px;
+  justify-content: center;
+ 
+}
+.button {
+  margin-top: 60px;
+  margin-bottom: 84px;
+  width: 210px;
+  background-color: #fc842d;
+  padding: 13px 25px;
+  border-radius: 50px;
+  border: inherit;
+}
+.button:hover {
+  background-color: #ffffff;
+  border: solid 1px #fc842d;
+}
+.buttonX{
+  display: none;
+  margin-top: 60px;
+  margin-bottom: 84px;
+  width: 210px;
+  background-color: #fc842d;
+  padding: 13px 25px;
+  border-radius: 50px;
+  border: inherit;
+}
+.buttonX:hover {
+  background-color: #ffffff;
+  border: solid 1px #fc842d;
+}
+
+  .text{
+    font-size: 14px;
+    color: #9b9faa;
+    text-align: left;
+    margin-bottom: 30px;
+    width: 280px;
+    margin-left: 20px;
+    
+}
+.link{
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 20px 70px;
+}
+.link:hover{
+  color: #fc842d;
+}
+.loader{
+  width: 35px;
+  height: 35px;
+}
+@media screen and (min-width: 768px){
+.box_form{
+display: flex;
+justify-content: space-between;
+}
+.buttonX{
+  display: block;
+}
+}
+@media screen and (min-width: 1280px){
+  .box_form{
+  display: flex;
+  justify-content: space-around;
+    }
+  }

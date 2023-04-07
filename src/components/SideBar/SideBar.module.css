@@ -1,0 +1,98 @@
+.box {
+  background-color: #f0f1f3;
+}
+.dark{
+  background-color: #2b3e51;
+}
+.boxHeader{
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .box{
+    display: flex;
+    background-image: url(../../img/Layer-4\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+   
+  }
+  .box_listItem{
+    margin-left: 79px;
+  }
+  .list{
+    justify-content: space-between;
+  }
+  .listBox{
+    width: 288px;
+  }
+  .listNumber{
+    padding-left: 0;
+    overflow-y: scroll;
+  }
+}
+.title {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: --text-color;
+  padding-top: 40px;
+  margin-left: 20px;
+  text-align: left;
+  margin-top: 0;
+}
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #9b9faa;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.text{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #9B9FAA;
+    text-align: left;
+}
+.box_list{
+  width: 280px;
+  height: 120px;
+  overflow: auto;
+}
+@media screen and (min-width: 1280px) {
+  .box{
+    display: block;
+    width: 540px;
+  }
+  .listBox {
+    margin-top: 147px;
+    margin-left: 94px;
+  }
+  .boxHeader{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+     
+  }
+  .buttonHeader{
+    color: #9B9FAA;
+    border: inherit;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-left: solid 1px #E0E0E0;
+}
+.textHeader{
+    color: --text-color;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 20px;
+    
+}
+}

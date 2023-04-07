@@ -1,0 +1,26 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 32px;
+    margin-bottom: 16px;
+    width: 46px;
+    height: 44px;
+}
+.logo2{
+    width: 160px;
+}
+.menu{
+    border: inherit;
+    background-color: inherit;
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+}
+
+
+

@@ -1,0 +1,15 @@
+.box{
+    display: block;
+    background-color: #264061;
+    height: 488px;
+    padding-top: 60px;
+}
+.link{
+    display: block;
+    color: #9B9FAA;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}

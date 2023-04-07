@@ -1,0 +1,35 @@
+.box{
+    max-width: 320px;
+    display: flex;
+    justify-content: flex-end;
+    width: 320px;
+    background-color: #E0E0E0;
+    opacity: 1;
+}
+.button{
+    color: #9B9FAA;
+    border: inherit;
+    background-color:#E0E0E0 ;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-left: solid 1px #E0E0E0;
+}
+.text{
+    color: --text-color;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 20px;
+    
+}
+
+@media screen and (min-width: 768px){
+.box{
+    opacity: 0;
+}
+}
+@media screen and (min-width: 1280px){
+.boxSide{
+    display: flex;
+}
+}

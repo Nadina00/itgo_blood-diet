@@ -1,0 +1,85 @@
+.btn_back {
+  width: 320px;
+  height: 40px;
+  background-color: #eff1f3;
+  border: solid #eff1f3 1px;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 18px;
+  color: --text-color;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 42px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #264061;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dark{
+  color: #eff1f3;
+}
+.light{
+  color: #264061;
+}
+.text {
+  font-size: 14px;
+  font-weight: bold;
+  color: --text-color;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.list {
+  font-size: 14px;
+  color: #9b9faa;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.button {
+  margin-top: 40px;
+  width: 210px;
+  background-color: #fc842d;
+  color: --text-color;
+  font-size: 14px;
+  padding: 13px 25px;
+  border-radius: 50px;
+  border: inherit;
+  justify-content: center;
+  margin-left: 55px;
+  margin-right: 55px;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #ffffff;
+  color: #fc842d;
+  border: solid 1px  #fc842d;
+}
+@media screen and (min-width: 768px) {
+  .title{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 64px;
+    margin-left: 82px;
+    margin-right: 82px;
+  }
+  .text{
+    text-align: center;
+  }
+  .list{
+    margin-left: auto;
+    margin-left: auto;
+  }
+  .loader{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+}
